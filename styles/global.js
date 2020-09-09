@@ -6,17 +6,22 @@ const GlobalStyles = createGlobalStyle`
     src: local('Captain Howdy Regular'), url(font.ttf) format('truetype');
   }
 
-  body {
-    font-family: "Captain Howdy Regular";
+  html, body {
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
+    display: flex;
 
+    font-family: "Captain Howdy Regular";
     background: black;
     background-image: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: ${({ theme }) => theme.colors.mainYellow};
+  }
+
+  #__next {
+    min-height: 100%;
   }
 
   a {

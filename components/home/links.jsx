@@ -8,7 +8,7 @@ export default function Links() {
 
 function renderLink(data) {
   return (
-    <Link href={data.href} target='_blank' alt={data.name}>
+    <Link href={data.href} target='_blank' alt={data.name} key={data.name}>
       {data.name}
     </Link>
   );
