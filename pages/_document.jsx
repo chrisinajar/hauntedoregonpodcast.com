@@ -37,6 +37,13 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <title>Haunted Oregon Podcast</title>
+          <meta property='og:title' content='Haunted Oregon Podcast' />
+          <meta
+            property='og:description'
+            content='Join a husband and wife duo - the skeptic and the believer - as they take you through the spooky tales of Oregon!'
+          />
+          <meta property='og:image' content='https://hauntedoregonpodcast.com/images/logo.png' />
+
           <script async src='https://www.googletagmanager.com/gtag/js?id=UA-177541353-1'></script>
           <script
             dangerouslySetInnerHTML={{
