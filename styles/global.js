@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
   html, body {
     position: relative;
     min-height: 100%;
+    min-width: 100%;
     display: flex;
 
     font-family: "Captain Howdy Regular";
@@ -22,6 +23,7 @@ const GlobalStyles = createGlobalStyle`
 
   #__next {
     min-height: 100%;
+    min-width: 100%;
   }
 
   a {
