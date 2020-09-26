@@ -4,6 +4,10 @@
     "name": "Apple Podcast"
   },
   {
+    "href": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9uNlhhcUNORw",
+    "name": "Google"
+  },
+  {
     "href": "https://open.spotify.com/show/6bRb5HoBarQdyefnU2yjjA?si=eOLOWjKcSxmRZynMz-L2jw",
     "name": "Spotify"
   },
