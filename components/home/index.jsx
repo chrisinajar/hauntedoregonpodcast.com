@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <Container className={foggy ? 'foggy' : null}>
       <Logo src='/images/logo.png' />
-      <Link href='https://donate.sistersoftheroad.org/give/137137/'>Donate to Sisters of the Road</Link>
       <Links />
     </Container>
   );
